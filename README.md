@@ -11,5 +11,5 @@ https://drive.google.com/file/d/12JNtHR2YIEeTkFZ8nAkswEHu0HxnVUcE/view?usp=shari
 
 # start any project folder
 
-Example: cd ~/VSCode/Next.js-Complete-Guide/06-prj-data-fetching
-npm i && npm dev
+Example: cd ~/VSCode/Next.js-Complete-Guide/04-prj-routing
+npm i && npm run dev
