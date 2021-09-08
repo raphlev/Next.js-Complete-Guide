@@ -26,7 +26,7 @@ async function handler(req, res) {
 
     try {
       client = await MongoClient.connect(
-        'mongodb+srv://maximilian:2YkcXq43KyPk0vqp@cluster0.ntrwp.mongodb.net/my-site?retryWrites=true&w=majority'
+        'mongodb+srv://nextjsuser:tG8axRtrjiBmpb8s@cluster0.wrscn.mongodb.net/my-site?retryWrites=true&w=majority',{ useUnifiedTopology: true }
       );
     } catch (error) {
       res.status(500).json({ message: 'Could not connect to database.' });

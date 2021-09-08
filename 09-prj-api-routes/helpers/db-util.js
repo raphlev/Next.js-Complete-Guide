@@ -2,7 +2,7 @@ import { MongoClient } from 'mongodb';
 
 export async function connectDatabase() {
   const client = await MongoClient.connect(
-    'mongodb+srv://maximilian:8ZO3ycZqJ23kWBQx@cluster0.ntrwp.mongodb.net/events?retryWrites=true&w=majority'
+    'mongodb+srv://nextjsuser:tG8axRtrjiBmpb8s@cluster0.wrscn.mongodb.net/events?retryWrites=true&w=majority',{ useUnifiedTopology: true }
   );
 
   return client;
